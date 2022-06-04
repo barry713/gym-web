@@ -1,0 +1,166 @@
+#title {
+    color: rgb(6, 35, 165);
+    background-color: hsl(132, 61%, 75%);
+    border-radius: 12px;
+    /* 1rem = 16px */
+    height: 64px;
+    font-size: 32px;
+    line-height: 4rem;
+    margin: 24px;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .sub-title {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: hsl(257, 29%, 17%);
+    border-radius: 6px;
+    /* 1rem = 16px */
+    height: 3rem;
+    font-size: 24px;
+    line-height: 3rem;
+    margin: 6px 0px;
+    padding: 6px;
+    font-family: 標楷體;
+  }
+
+  #container {
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(181, 235, 235);
+    font-family: "Microsoft JhengHei", 標楷體;
+  }
+
+  .text-1 {
+    background-color: bisque;
+    padding: 12px 12px;
+    font-family: 標楷體;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .text-2 {
+    background-color: rgb(236, 191, 221);
+    padding: 6px;
+    color: blue;
+    border-radius: 6px;
+    border: 2px solid black;
+  }
+
+  .text-3 {
+    font-size: 32px;
+    color: rgb(235, 11, 216);
+  }
+
+  mark {
+    background-color: aqua;
+  }
+
+  .good-link {
+    text-align: left;
+  }
+
+  .good-link a {
+    text-decoration: none;
+    color: rgb(19, 112, 81);
+  }
+
+  .good-link a:hover {
+    color: blueviolet;
+  }
+
+  #image {
+    background-color: chocolate;
+    padding: 12px 0;
+  }
+
+  #image img {
+    background-color: rgb(114, 41, 163);
+    padding: 3px;
+    margin-right: 6px;
+    border-radius: 6px;
+  }
+
+  table {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    text-align: center;
+    font-size: 16px;
+    border: 3px solid saddlebrown;
+  }
+
+  th {
+    border: 1px solid salmon;
+    background-color: cornflowerblue;
+    color: white;
+  }
+
+  tbody {
+    border: 1px solid salmon;
+    background-color: #4d4c7d;
+    color: white;
+    font-size: 16px;
+  }
+
+  td:first-child {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(134, 155, 85);
+  }
+
+  #video {
+    background-color: tomato;
+    padding: 12px;
+    color: white;
+    font-size: large;
+  }
+
+  input,
+  textarea,
+  button {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  form {
+    background-color: rgb(149, 228, 201);
+    padding: 32px;
+    border-radius: 12px;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  button {
+    background-color: rgb(176, 114, 235);
+    width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 9px;
+    border: 0;
+  }
+
+  #email {
+    margin-left: 20px;
+    margin-bottom: 12px;
+  }
+
+  #info {
+    margin-top: 6px;
+  }
+  
+  @media screen and (max-width: 800px) {
+    form {
+      width: 80%;
+    }
+
+    button {
+      width: 100px;
+    }
+  }
